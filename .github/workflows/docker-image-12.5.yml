@@ -11,6 +11,7 @@ env:
   DOCKER_IMAGE_CONTEXT_PATH: 12.5/debian/default/
   DOCKERHUB_IMAGE_TAGS: |
     nicoherbigde/postgresql:12.5
+    nicoherbigio/postgresql:12.5
 
 jobs:
   build-and-push:

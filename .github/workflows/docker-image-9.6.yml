@@ -11,7 +11,9 @@ env:
   DOCKER_IMAGE_CONTEXT_PATH: 9.6/debian/default/
   DOCKERHUB_IMAGE_TAGS: |
     nicoherbigde/postgresql:9.6
+    nicoherbigio/postgresql:9.6
     nicoherbigde/postgresql:9.6.20
+    nicoherbigio/postgresql:9.6.20
 
 jobs:
   build-and-push:
