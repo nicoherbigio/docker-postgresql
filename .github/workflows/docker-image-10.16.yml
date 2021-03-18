@@ -1,4 +1,4 @@
-name: Docker Image CI for version 10.15
+name: Docker Image CI for version 10.16
 
 on:
   push:
@@ -8,10 +8,10 @@ on:
     - cron: '0 1 * * 1'
 
 env:
-  DOCKER_IMAGE_CONTEXT_PATH: 10.15/debian/default/
+  DOCKER_IMAGE_CONTEXT_PATH: 10.16/debian/default/
   DOCKERHUB_IMAGE_TAGS: |
-    nicoherbigde/postgresql:10.15
-    nicoherbigio/postgresql:10.15
+    nicoherbigde/postgresql:10.16
+    nicoherbigio/postgresql:10.16
 
 jobs:
   build-and-push:
