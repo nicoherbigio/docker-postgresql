@@ -1,4 +1,4 @@
-name: Docker Image CI for version 13.1
+name: Docker Image CI for version 13.2
 
 on:
   push:
@@ -8,10 +8,10 @@ on:
     - cron: '0 1 * * 1'
 
 env:
-  DOCKER_IMAGE_CONTEXT_PATH: 13.1/debian/default/
+  DOCKER_IMAGE_CONTEXT_PATH: 13.2/debian/default/
   DOCKERHUB_IMAGE_TAGS: |
-    nicoherbigde/postgresql:13.1
-    nicoherbigio/postgresql:13.1
+    nicoherbigde/postgresql:13.2
+    nicoherbigio/postgresql:13.2
 
 jobs:
   build-and-push:
