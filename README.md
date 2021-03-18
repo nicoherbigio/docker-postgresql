@@ -4,7 +4,7 @@
 
  * [`13.1`](https://github.com/nicoherbigio/docker-postgresql/blob/master/13.1/debian/default/Dockerfile)
  * [`12.5`](https://github.com/nicoherbigio/docker-postgresql/blob/master/12.5/debian/default/Dockerfile)
- * [`11.10`](https://github.com/nicoherbigio/docker-postgresql/blob/master/11.10/debian/default/Dockerfile)
+ * [`11.11`](https://github.com/nicoherbigio/docker-postgresql/blob/master/11.11/debian/default/Dockerfile)
  * [`10.16`](https://github.com/nicoherbigio/docker-postgresql/blob/master/10.16/debian/default/Dockerfile)
  * [`9.6`, `9.6.21`](https://github.com/nicoherbigio/docker-postgresql/blob/master/9.6/debian/default/Dockerfile)
 
