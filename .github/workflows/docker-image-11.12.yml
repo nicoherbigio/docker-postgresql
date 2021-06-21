@@ -1,4 +1,4 @@
-name: Docker Image CI for version 11.11
+name: Docker Image CI for version 11.12
 
 on:
   push:
@@ -8,10 +8,10 @@ on:
     - cron: '0 1 * * 1'
 
 env:
-  DOCKER_IMAGE_CONTEXT_PATH: 11.11/debian/default/
+  DOCKER_IMAGE_CONTEXT_PATH: 11.12/debian/default/
   DOCKERHUB_IMAGE_TAGS: |
-    nicoherbigde/postgresql:11.11
-    nicoherbigio/postgresql:11.11
+    nicoherbigde/postgresql:11.12
+    nicoherbigio/postgresql:11.12
 
 jobs:
   build-and-push:
