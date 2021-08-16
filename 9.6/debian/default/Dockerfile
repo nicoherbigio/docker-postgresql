@@ -1,4 +1,4 @@
-FROM postgres:9.6.22
+FROM postgres:9.6.23
 
 LABEL maintainer="Nico Herbig <nico@nicoherbig.io>"
 
