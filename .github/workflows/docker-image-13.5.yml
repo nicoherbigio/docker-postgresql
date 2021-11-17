@@ -1,20 +1,20 @@
-name: Docker Image CI for version 13.4
+name: Docker Image CI for version 13.5
 
 on:
   push:
     branches:
       - main
     paths:
-      - '.github/workflows/docker-image-13.4.yml'
-      - '13.4/**'
+      - '.github/workflows/docker-image-13.5.yml'
+      - '13.5/**'
   schedule:
     - cron: '0 1 * * 1'
 
 env:
-  DOCKER_IMAGE_CONTEXT_PATH: 13.4/debian/default/
+  DOCKER_IMAGE_CONTEXT_PATH: 13.5/debian/default/
   DOCKERHUB_IMAGE_TAGS: |
-    nicoherbigde/postgresql:13.4
-    nicoherbigio/postgresql:13.4
+    nicoherbigde/postgresql:13.5
+    nicoherbigio/postgresql:13.5
 
 jobs:
   build-and-push:
