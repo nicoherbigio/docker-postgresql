@@ -1,20 +1,20 @@
-name: Docker Image CI for version 10.18
+name: Docker Image CI for version 10.19
 
 on:
   push:
     branches:
       - main
     paths:
-      - '.github/workflows/docker-image-10.18.yml'
-      - '10.18/**'
+      - '.github/workflows/docker-image-10.19.yml'
+      - '10.19/**'
   schedule:
     - cron: '0 1 * * 1'
 
 env:
-  DOCKER_IMAGE_CONTEXT_PATH: 10.18/debian/default/
+  DOCKER_IMAGE_CONTEXT_PATH: 10.19/debian/default/
   DOCKERHUB_IMAGE_TAGS: |
-    nicoherbigde/postgresql:10.18
-    nicoherbigio/postgresql:10.18
+    nicoherbigde/postgresql:10.19
+    nicoherbigio/postgresql:10.19
 
 jobs:
   build-and-push:
