@@ -1,20 +1,20 @@
-name: Docker Image CI for version 12.8
+name: Docker Image CI for version 12.9
 
 on:
   push:
     branches:
       - main
     paths:
-      - '.github/workflows/docker-image-12.8.yml'
-      - '12.8/**'
+      - '.github/workflows/docker-image-12.9.yml'
+      - '12.9/**'
   schedule:
     - cron: '0 1 * * 1'
 
 env:
-  DOCKER_IMAGE_CONTEXT_PATH: 12.8/debian/default/
+  DOCKER_IMAGE_CONTEXT_PATH: 12.9/debian/default/
   DOCKERHUB_IMAGE_TAGS: |
-    nicoherbigde/postgresql:12.8
-    nicoherbigio/postgresql:12.8
+    nicoherbigde/postgresql:12.9
+    nicoherbigio/postgresql:12.9
 
 jobs:
   build-and-push:
