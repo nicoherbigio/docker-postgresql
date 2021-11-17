@@ -15,8 +15,8 @@ env:
   DOCKERHUB_IMAGE_TAGS: |
     nicoherbigde/postgresql:9.6
     nicoherbigio/postgresql:9.6
-    nicoherbigde/postgresql:9.6.23
-    nicoherbigio/postgresql:9.6.23
+    nicoherbigde/postgresql:9.6.24
+    nicoherbigio/postgresql:9.6.24
 
 jobs:
   build-and-push:
