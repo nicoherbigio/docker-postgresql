@@ -7,7 +7,7 @@ on:
     paths:
       - '.github/**'
       - '10.21/**'
-      - '11.15/**'
+      - '11.16/**'
       - '12.10/**'
       - '13.6/**'
       - '14.1/**'
@@ -22,18 +22,18 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [10.21, 11.15, 12.10, 13.6, 14.1]
+        version: [10.21, 11.16, 12.10, 13.6, 14.1]
         include:
           - version: 10.21
             docker-context: 10.21/debian/default
             docker-tags: |
               nicoherbigde/postgresql:10.21
               nicoherbigio/postgresql:10.21
-          - version: 11.15
-            docker-context: 11.15/debian/default
+          - version: 11.16
+            docker-context: 11.16/debian/default
             docker-tags: |
-              nicoherbigde/postgresql:11.15
-              nicoherbigio/postgresql:11.15
+              nicoherbigde/postgresql:11.16
+              nicoherbigio/postgresql:11.16
           - version: 12.10
             docker-context: 12.10/debian/default
             docker-tags: |
