@@ -1,4 +1,4 @@
-FROM postgres:13.6
+FROM postgres:13.7
 
 LABEL maintainer="Nico Herbig <nico@nicoherbig.io>"
 

@@ -9,7 +9,7 @@ on:
       - '10.21/**'
       - '11.16/**'
       - '12.11/**'
-      - '13.6/**'
+      - '13.7/**'
       - '14.1/**'
   schedule:
     - cron: '0 1 * * *'
@@ -22,7 +22,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [10.21, 11.16, 12.11, 13.6, 14.1]
+        version: [10.21, 11.16, 12.11, 13.7, 14.1]
         include:
           - version: 10.21
             docker-context: 10.21/debian/default
@@ -39,11 +39,11 @@ jobs:
             docker-tags: |
               nicoherbigde/postgresql:12.11
               nicoherbigio/postgresql:12.11
-          - version: 13.6
-            docker-context: 13.6/debian/default
+          - version: 13.7
+            docker-context: 13.7/debian/default
             docker-tags: |
-              nicoherbigde/postgresql:13.6
-              nicoherbigio/postgresql:13.6
+              nicoherbigde/postgresql:13.7
+              nicoherbigio/postgresql:13.7
           - version: 14.1
             docker-context: 14.1/debian/default
             docker-tags: |
