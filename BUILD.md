@@ -18,7 +18,7 @@ The following command is required to build the current version.
 
 ```
 # Build the Docker image
-docker build --no-cache --pull --tag nicoherbigde/postgresql:14.4 14.4/debian/default/
+docker build --no-cache --pull --tag nicoherbigde/postgresql:14.5 14.5/debian/default/
 ```
 
 > **Hint:** For building an older version, the directory and file paths as well as the Docker tags must be adjusted accordingly, analogous to the previously mentioned command.
@@ -29,7 +29,7 @@ The following command is required to upload the current version.
 
 ```
 # Upload the Docker image to Docker Hub
-docker push nicoherbigde/postgresql:14.4
+docker push nicoherbigde/postgresql:14.5
 ```
 
 > **Hint:** For uploading an older version, the Docker tags must be adjusted accordingly, analogous to the previously mentioned command.
