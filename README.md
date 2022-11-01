@@ -7,7 +7,7 @@
  * [`14.4` (14.4/debian/default/Dockerfile)](https://github.com/nicoherbigio/docker-postgresql/blob/main/14.4/debian/default/Dockerfile)
  * [`13.7` (13.7/debian/default/Dockerfile)](https://github.com/nicoherbigio/docker-postgresql/blob/main/13.7/debian/default/Dockerfile)
  * [`12.11` (12.11/debian/default/Dockerfile)](https://github.com/nicoherbigio/docker-postgresql/blob/main/12.11/debian/default/Dockerfile)
- * [`11.16` (11.16/debian/default/Dockerfile)](https://github.com/nicoherbigio/docker-postgresql/blob/main/11.16/debian/default/Dockerfile)
+ * [`11.17` (11.17/debian/default/Dockerfile)](https://github.com/nicoherbigio/docker-postgresql/blob/main/11.17/debian/default/Dockerfile)
  * [`10.22` (10.22/debian/default/Dockerfile)](https://github.com/nicoherbigio/docker-postgresql/blob/main/10.22/debian/default/Dockerfile)
 
 ## How to get this image
