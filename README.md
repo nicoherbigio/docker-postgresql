@@ -4,6 +4,7 @@
 
 ## Supported tags and respective `Dockerfile` links
 
+ * [`15.0` (15.0/debian/default/Dockerfile)](https://github.com/nicoherbigio/docker-postgresql/blob/main/15.0/debian/default/Dockerfile)
  * [`14.5` (14.5/debian/default/Dockerfile)](https://github.com/nicoherbigio/docker-postgresql/blob/main/14.5/debian/default/Dockerfile)
  * [`13.8` (13.8/debian/default/Dockerfile)](https://github.com/nicoherbigio/docker-postgresql/blob/main/13.8/debian/default/Dockerfile)
  * [`12.12` (12.12/debian/default/Dockerfile)](https://github.com/nicoherbigio/docker-postgresql/blob/main/12.12/debian/default/Dockerfile)
