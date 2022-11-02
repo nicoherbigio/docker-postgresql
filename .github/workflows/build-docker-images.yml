@@ -28,27 +28,22 @@ jobs:
             docker-context: 11.17/debian/default
             docker-tags: |
               nicoherbigde/postgresql:11.17
-              nicoherbigio/postgresql:11.17
           - version: 12.12
             docker-context: 12.12/debian/default
             docker-tags: |
               nicoherbigde/postgresql:12.12
-              nicoherbigio/postgresql:12.12
           - version: 13.8
             docker-context: 13.8/debian/default
             docker-tags: |
               nicoherbigde/postgresql:13.8
-              nicoherbigio/postgresql:13.8
           - version: 14.5
             docker-context: 14.5/debian/default
             docker-tags: |
               nicoherbigde/postgresql:14.5
-              nicoherbigio/postgresql:14.5
           - version: 15.0
             docker-context: 15.0/debian/default
             docker-tags: |
               nicoherbigde/postgresql:15.0
-              nicoherbigio/postgresql:15.0
 
     steps:
       - name: Checkout Git Repository
