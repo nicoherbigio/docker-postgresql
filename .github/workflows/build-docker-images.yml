@@ -22,28 +22,33 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [11.17, 12.12, 13.8, 14.5, 15.0]
+        version: [11.17-bullseye, 12.12-bullseye, 13.8-bullseye, 14.5-bullseye, 15.0-bullseye]
         include:
-          - version: 11.17
+          - version: 11.17-bullseye
             docker-context: 11.17/debian/default
             docker-tags: |
               nicoherbigde/postgresql:11.17
-          - version: 12.12
+              nicoherbigde/postgresql:11.17-bullseye
+          - version: 12.12-bullseye
             docker-context: 12.12/debian/default
             docker-tags: |
               nicoherbigde/postgresql:12.12
-          - version: 13.8
+              nicoherbigde/postgresql:12.12-bullseye
+          - version: 13.8-bullseye
             docker-context: 13.8/debian/default
             docker-tags: |
               nicoherbigde/postgresql:13.8
-          - version: 14.5
+              nicoherbigde/postgresql:13.8-bullseye
+          - version: 14.5-bullseye
             docker-context: 14.5/debian/default
             docker-tags: |
               nicoherbigde/postgresql:14.5
-          - version: 15.0
+              nicoherbigde/postgresql:14.5-bullseye
+          - version: 15.0-bullseye
             docker-context: 15.0/debian/default
             docker-tags: |
               nicoherbigde/postgresql:15.0
+              nicoherbigde/postgresql:15.0-bullseye
 
     steps:
       - name: Checkout Git Repository
