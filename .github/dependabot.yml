@@ -5,15 +5,47 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
     # Disable all pull requests for GitHub Actions dependencies
     open-pull-requests-limit: 0
 
   # Maintain dependencies for Docker
   - package-ecosystem: "docker"
-    directory: "/"
+    directory: "/11.17/debian/default"
     schedule:
       interval: "daily"
-    # Disable all pull requests for Docker dependencies
-    open-pull-requests-limit: 0
+    ignore:
+      - dependency-name: "postgres"
+        update-types: [ "version-update:semver-major" ]
 
+  - package-ecosystem: "docker"
+    directory: "/12.12/debian/default"
+    schedule:
+      interval: "daily"
+    ignore:
+      - dependency-name: "postgres"
+        update-types: [ "version-update:semver-major" ]
+
+  - package-ecosystem: "docker"
+    directory: "/13.8/debian/default"
+    schedule:
+      interval: "daily"
+    ignore:
+      - dependency-name: "postgres"
+        update-types: [ "version-update:semver-major" ]
+
+  - package-ecosystem: "docker"
+    directory: "/14.5/debian/default"
+    schedule:
+      interval: "daily"
+    ignore:
+      - dependency-name: "postgres"
+        update-types: [ "version-update:semver-major" ]
+
+  - package-ecosystem: "docker"
+    directory: "/15.0/debian/default"
+    schedule:
+      interval: "daily"
+    ignore:
+      - dependency-name: "postgres"
+        update-types: [ "version-update:semver-major" ]
