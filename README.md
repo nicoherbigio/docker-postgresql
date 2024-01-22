@@ -6,7 +6,7 @@
 
  * [`15.0`, `15.0-bullseye`](https://github.com/nicoherbigio/docker-postgresql/blob/main/15.0/debian/default/Dockerfile)
  * [`14.5`, `14.5-bullseye`](https://github.com/nicoherbigio/docker-postgresql/blob/main/14.5/debian/default/Dockerfile)
- * [`13.8`, `13.8-bullseye`](https://github.com/nicoherbigio/docker-postgresql/blob/main/13.8/debian/default/Dockerfile)
+ * [`13.9`, `13.9-bullseye`](https://github.com/nicoherbigio/docker-postgresql/blob/main/13.9/debian/default/Dockerfile)
  * [`12.13`, `12.13-bullseye`](https://github.com/nicoherbigio/docker-postgresql/blob/main/12.13/debian/default/Dockerfile)
  * [`11.18`, `11.18-bullseye`](https://github.com/nicoherbigio/docker-postgresql/blob/main/11.18/debian/default/Dockerfile)
 
