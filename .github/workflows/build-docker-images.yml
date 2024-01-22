@@ -9,7 +9,7 @@ on:
       - '11.20/**'
       - '12.15/**'
       - '13.11/**'
-      - '14.7/**'
+      - '14.8/**'
       - '15.2/**'
   schedule:
     - cron: '0 1 * * *'
@@ -22,7 +22,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [11.20-bullseye, 12.15-bullseye, 13.11-bullseye, 14.7-bullseye, 15.2-bullseye]
+        version: [11.20-bullseye, 12.15-bullseye, 13.11-bullseye, 14.8-bullseye, 15.2-bullseye]
         include:
           - version: 11.20-bullseye
             docker-context: 11.20/debian/default
@@ -39,11 +39,11 @@ jobs:
             docker-tags: |
               nicoherbigde/postgresql:13.11
               nicoherbigde/postgresql:13.11-bullseye
-          - version: 14.7-bullseye
-            docker-context: 14.7/debian/default
+          - version: 14.8-bullseye
+            docker-context: 14.8/debian/default
             docker-tags: |
-              nicoherbigde/postgresql:14.7
-              nicoherbigde/postgresql:14.7-bullseye
+              nicoherbigde/postgresql:14.8
+              nicoherbigde/postgresql:14.8-bullseye
           - version: 15.2-bullseye
             docker-context: 15.2/debian/default
             docker-tags: |
