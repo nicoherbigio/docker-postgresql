@@ -1,4 +1,4 @@
-FROM postgres:14.8-bullseye
+FROM postgres:14.9-bullseye
 
 LABEL maintainer="Nico Herbig <nico@nicoherbig.io>"
 
