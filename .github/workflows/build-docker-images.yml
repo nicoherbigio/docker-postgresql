@@ -10,7 +10,7 @@ on:
       - '12.17/**'
       - '13.13/**'
       - '14.10/**'
-      - '15.4/**'
+      - '15.5/**'
   schedule:
     - cron: '0 1 * * *'
   workflow_dispatch:
@@ -22,7 +22,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [11.22-bullseye, 12.17-bullseye, 13.13-bullseye, 14.10-bullseye, 15.4-bullseye]
+        version: [11.22-bullseye, 12.17-bullseye, 13.13-bullseye, 14.10-bullseye, 15.5-bullseye]
         include:
           - version: 11.22-bullseye
             docker-context: 11.22/debian/default
@@ -44,11 +44,11 @@ jobs:
             docker-tags: |
               nicoherbigde/postgresql:14.10
               nicoherbigde/postgresql:14.10-bullseye
-          - version: 15.4-bullseye
-            docker-context: 15.4/debian/default
+          - version: 15.5-bullseye
+            docker-context: 15.5/debian/default
             docker-tags: |
-              nicoherbigde/postgresql:15.4
-              nicoherbigde/postgresql:15.4-bullseye
+              nicoherbigde/postgresql:15.5
+              nicoherbigde/postgresql:15.5-bullseye
 
     steps:
       - name: Checkout Git Repository
