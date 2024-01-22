@@ -5,7 +5,7 @@
 ## Supported tags and respective `Dockerfile` links
 
  * [`15.2`, `15.2-bullseye`](https://github.com/nicoherbigio/docker-postgresql/blob/main/15.2/debian/default/Dockerfile)
- * [`14.7`, `14.7-bullseye`](https://github.com/nicoherbigio/docker-postgresql/blob/main/14.7/debian/default/Dockerfile)
+ * [`14.8`, `14.8-bullseye`](https://github.com/nicoherbigio/docker-postgresql/blob/main/14.8/debian/default/Dockerfile)
  * [`13.11`, `13.11-bullseye`](https://github.com/nicoherbigio/docker-postgresql/blob/main/13.11/debian/default/Dockerfile)
  * [`12.14`, `12.14-bullseye`](https://github.com/nicoherbigio/docker-postgresql/blob/main/12.14/debian/default/Dockerfile)
  * [`11.20`, `11.20-bullseye`](https://github.com/nicoherbigio/docker-postgresql/blob/main/11.20/debian/default/Dockerfile)
