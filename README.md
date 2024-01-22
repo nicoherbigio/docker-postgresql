@@ -8,7 +8,7 @@
  * [`14.5`, `14.5-bullseye`](https://github.com/nicoherbigio/docker-postgresql/blob/main/14.5/debian/default/Dockerfile)
  * [`13.8`, `13.8-bullseye`](https://github.com/nicoherbigio/docker-postgresql/blob/main/13.8/debian/default/Dockerfile)
  * [`12.12`, `12.12-bullseye`](https://github.com/nicoherbigio/docker-postgresql/blob/main/12.12/debian/default/Dockerfile)
- * [`11.17`, `11.17-bullseye`](https://github.com/nicoherbigio/docker-postgresql/blob/main/11.17/debian/default/Dockerfile)
+ * [`11.18`, `11.18-bullseye`](https://github.com/nicoherbigio/docker-postgresql/blob/main/11.18/debian/default/Dockerfile)
 
 ## How to get this image
 
