@@ -8,7 +8,7 @@ on:
       - '.github/**'
       - '11.19/**'
       - '12.14/**'
-      - '13.9/**'
+      - '13.10/**'
       - '14.6/**'
       - '15.1/**'
   schedule:
@@ -22,7 +22,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [11.19-bullseye, 12.14-bullseye, 13.9-bullseye, 14.6-bullseye, 15.1-bullseye]
+        version: [11.19-bullseye, 12.14-bullseye, 13.10-bullseye, 14.6-bullseye, 15.1-bullseye]
         include:
           - version: 11.19-bullseye
             docker-context: 11.19/debian/default
@@ -34,11 +34,11 @@ jobs:
             docker-tags: |
               nicoherbigde/postgresql:12.14
               nicoherbigde/postgresql:12.14-bullseye
-          - version: 13.9-bullseye
-            docker-context: 13.9/debian/default
+          - version: 13.10-bullseye
+            docker-context: 13.10/debian/default
             docker-tags: |
-              nicoherbigde/postgresql:13.9
-              nicoherbigde/postgresql:13.9-bullseye
+              nicoherbigde/postgresql:13.10
+              nicoherbigde/postgresql:13.10-bullseye
           - version: 14.6-bullseye
             docker-context: 14.6/debian/default
             docker-tags: |
