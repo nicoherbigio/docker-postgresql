@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - '.github/**'
-      - '11.18/**'
+      - '11.19/**'
       - '12.13/**'
       - '13.9/**'
       - '14.6/**'
@@ -22,13 +22,13 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [11.18-bullseye, 12.13-bullseye, 13.9-bullseye, 14.6-bullseye, 15.1-bullseye]
+        version: [11.19-bullseye, 12.13-bullseye, 13.9-bullseye, 14.6-bullseye, 15.1-bullseye]
         include:
-          - version: 11.18-bullseye
-            docker-context: 11.18/debian/default
+          - version: 11.19-bullseye
+            docker-context: 11.19/debian/default
             docker-tags: |
-              nicoherbigde/postgresql:11.18
-              nicoherbigde/postgresql:11.18-bullseye
+              nicoherbigde/postgresql:11.19
+              nicoherbigde/postgresql:11.19-bullseye
           - version: 12.13-bullseye
             docker-context: 12.13/debian/default
             docker-tags: |
