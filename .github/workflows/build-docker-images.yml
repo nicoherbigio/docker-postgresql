@@ -8,7 +8,7 @@ on:
       - '.github/**'
       - '12.19/**'
       - '13.15/**'
-      - '14.11/**'
+      - '14.12/**'
       - '15.6/**'
       - '16.2/**'
   schedule:
@@ -22,7 +22,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [12.19-bookworm, 13.15-bookworm, 14.11-bookworm, 15.6-bookworm, 16.2-bookworm]
+        version: [12.19-bookworm, 13.15-bookworm, 14.12-bookworm, 15.6-bookworm, 16.2-bookworm]
         include:
           - version: 12.19-bookworm
             docker-context: 12.19/debian/default
@@ -34,11 +34,11 @@ jobs:
             docker-tags: |
               nicoherbigde/postgresql:13.15
               nicoherbigde/postgresql:13.15-bookworm
-          - version: 14.11-bookworm
-            docker-context: 14.11/debian/default
+          - version: 14.12-bookworm
+            docker-context: 14.12/debian/default
             docker-tags: |
-              nicoherbigde/postgresql:14.11
-              nicoherbigde/postgresql:14.11-bookworm
+              nicoherbigde/postgresql:14.12
+              nicoherbigde/postgresql:14.12-bookworm
           - version: 15.6-bookworm
             docker-context: 15.6/debian/default
             docker-tags: |
