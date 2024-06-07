@@ -1,4 +1,4 @@
-FROM postgres:16.1-bullseye
+FROM postgres:16.1-bookworm
 LABEL maintainer="Nico Herbig <nico@nicoherbig.io>"
 
 
