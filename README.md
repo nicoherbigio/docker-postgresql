@@ -8,7 +8,7 @@
  * [`15.7`, `15.7-bookworm`](https://github.com/nicoherbigio/docker-postgresql/blob/main/15.7/debian/default/Dockerfile)
  * [`14.12`, `14.12-bookworm`](https://github.com/nicoherbigio/docker-postgresql/blob/main/14.12/debian/default/Dockerfile)
  * [`13.15`, `13.15-bookworm`](https://github.com/nicoherbigio/docker-postgresql/blob/main/13.15/debian/default/Dockerfile)
- * [`12.19`, `12.19-bookworm`](https://github.com/nicoherbigio/docker-postgresql/blob/main/12.19/debian/default/Dockerfile)
+ * [`12.20`, `12.20-bookworm`](https://github.com/nicoherbigio/docker-postgresql/blob/main/12.20/debian/default/Dockerfile)
 
 ## How to get this image
 

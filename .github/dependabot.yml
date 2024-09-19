@@ -11,7 +11,7 @@ updates:
 
   # Maintain dependencies for Docker
   - package-ecosystem: "docker"
-    directory: "/12.19/debian/default"
+    directory: "/12.20/debian/default"
     schedule:
       interval: "daily"
     ignore:
