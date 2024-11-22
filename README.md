@@ -4,7 +4,7 @@
 
 ## Supported tags and respective `Dockerfile` links
 
- * [`17.0`, `17.0-bookworm`](https://github.com/nicoherbigio/docker-postgresql/blob/main/17.0/debian/default/Dockerfile)
+ * [`17.1`, `17.1-bookworm`](https://github.com/nicoherbigio/docker-postgresql/blob/main/17.1/debian/default/Dockerfile)
  * [`16.5`, `16.5-bookworm`](https://github.com/nicoherbigio/docker-postgresql/blob/main/16.5/debian/default/Dockerfile)
  * [`15.9`, `15.9-bookworm`](https://github.com/nicoherbigio/docker-postgresql/blob/main/15.9/debian/default/Dockerfile)
  * [`14.14`, `14.14-bookworm`](https://github.com/nicoherbigio/docker-postgresql/blob/main/14.14/debian/default/Dockerfile)
