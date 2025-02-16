@@ -7,7 +7,7 @@ on:
     paths:
       - '.github/**'
       - '13.19/**'
-      - '14.15/**'
+      - '14.16/**'
       - '15.10/**'
       - '16.6/**'
       - '17.2/**'
@@ -22,18 +22,18 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [13.19-bookworm, 14.15-bookworm, 15.10-bookworm, 16.6-bookworm, 17.2-bookworm]
+        version: [13.19-bookworm, 14.16-bookworm, 15.10-bookworm, 16.6-bookworm, 17.2-bookworm]
         include:
           - version: 13.19-bookworm
             docker-context: 13.19/debian/default
             docker-tags: |
               nicoherbigde/postgresql:13.19
               nicoherbigde/postgresql:13.19-bookworm
-          - version: 14.15-bookworm
-            docker-context: 14.15/debian/default
+          - version: 14.16-bookworm
+            docker-context: 14.16/debian/default
             docker-tags: |
-              nicoherbigde/postgresql:14.15
-              nicoherbigde/postgresql:14.15-bookworm
+              nicoherbigde/postgresql:14.16
+              nicoherbigde/postgresql:14.16-bookworm
           - version: 15.10-bookworm
             docker-context: 15.10/debian/default
             docker-tags: |
