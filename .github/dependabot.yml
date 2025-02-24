@@ -27,7 +27,7 @@ updates:
         update-types: [ "version-update:semver-major" ]
 
   - package-ecosystem: "docker"
-    directory: "/15.11/debian/default"
+    directory: "/15.12/debian/default"
     schedule:
       interval: "daily"
     ignore:
