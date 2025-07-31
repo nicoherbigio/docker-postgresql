@@ -10,7 +10,7 @@ on:
       - '14.18/**'
       - '15.13/**'
       - '16.9/**'
-      - '17.4/**'
+      - '17.5/**'
   schedule:
     - cron: '0 1 * * 6'
   workflow_dispatch:
@@ -22,7 +22,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [13.21-bookworm, 14.18-bookworm, 15.13-bookworm, 16.9-bookworm, 17.4-bookworm]
+        version: [13.21-bookworm, 14.18-bookworm, 15.13-bookworm, 16.9-bookworm, 17.5-bookworm]
         include:
           - version: 13.21-bookworm
             docker-context: 13.21/debian/default
@@ -44,11 +44,11 @@ jobs:
             docker-tags: |
               nicoherbigde/postgresql:16.9
               nicoherbigde/postgresql:16.9-bookworm
-          - version: 17.4-bookworm
-            docker-context: 17.4/debian/default
+          - version: 17.5-bookworm
+            docker-context: 17.5/debian/default
             docker-tags: |
-              nicoherbigde/postgresql:17.4
-              nicoherbigde/postgresql:17.4-bookworm
+              nicoherbigde/postgresql:17.5
+              nicoherbigde/postgresql:17.5-bookworm
 
     steps:
       - name: Checkout Git Repository
