@@ -6,7 +6,7 @@
 
  * [`17.4`, `17.4-bookworm`](https://github.com/nicoherbigio/docker-postgresql/blob/main/17.4/debian/default/Dockerfile)
  * [`16.8`, `16.8-bookworm`](https://github.com/nicoherbigio/docker-postgresql/blob/main/16.8/debian/default/Dockerfile)
- * [`15.12`, `15.12-bookworm`](https://github.com/nicoherbigio/docker-postgresql/blob/main/15.12/debian/default/Dockerfile)
+ * [`15.13`, `15.13-bookworm`](https://github.com/nicoherbigio/docker-postgresql/blob/main/15.13/debian/default/Dockerfile)
  * [`14.18`, `14.18-bookworm`](https://github.com/nicoherbigio/docker-postgresql/blob/main/14.18/debian/default/Dockerfile)
  * [`13.21`, `13.21-bookworm`](https://github.com/nicoherbigio/docker-postgresql/blob/main/13.21/debian/default/Dockerfile)
 
