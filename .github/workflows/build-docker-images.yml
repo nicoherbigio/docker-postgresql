@@ -9,7 +9,7 @@ on:
       - '13.22/**'
       - '14.19/**'
       - '15.14/**'
-      - '16.9/**'
+      - '16.10/**'
       - '17.5/**'
   schedule:
     - cron: '0 1 * * 6'
@@ -22,7 +22,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [13.22-trixie, 14.19-trixie, 15.14-trixie, 16.9-bookworm, 17.5-bookworm]
+        version: [13.22-trixie, 14.19-trixie, 15.14-trixie, 16.10-trixie, 17.5-bookworm]
         include:
           - version: 13.22-trixie
             docker-context: 13.22/debian/default
@@ -39,11 +39,11 @@ jobs:
             docker-tags: |
               nicoherbigde/postgresql:15.14
               nicoherbigde/postgresql:15.14-trixie
-          - version: 16.9-bookworm
-            docker-context: 16.9/debian/default
+          - version: 16.10-trixie
+            docker-context: 16.10/debian/default
             docker-tags: |
-              nicoherbigde/postgresql:16.9
-              nicoherbigde/postgresql:16.9-bookworm
+              nicoherbigde/postgresql:16.10
+              nicoherbigde/postgresql:16.10-trixie
           - version: 17.5-bookworm
             docker-context: 17.5/debian/default
             docker-tags: |
