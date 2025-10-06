@@ -49,3 +49,11 @@ updates:
     ignore:
       - dependency-name: "postgres"
         update-types: [ "version-update:semver-major" ]
+
+  - package-ecosystem: "docker"
+    directory: "/18.0/debian/default"
+    schedule:
+      interval: "daily"
+    ignore:
+      - dependency-name: "postgres"
+        update-types: [ "version-update:semver-major" ]
