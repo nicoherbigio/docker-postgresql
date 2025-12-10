@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - '.github/**'
-      - '13.22/**'
+      - '13.23/**'
       - '14.19/**'
       - '15.14/**'
       - '16.10/**'
@@ -23,13 +23,13 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [13.22-trixie, 14.19-trixie, 15.14-trixie, 16.10-trixie, 17.6-trixie, 18.0-trixie]
+        version: [13.23-trixie, 14.19-trixie, 15.14-trixie, 16.10-trixie, 17.6-trixie, 18.0-trixie]
         include:
-          - version: 13.22-trixie
-            docker-context: 13.22/debian/default
+          - version: 13.23-trixie
+            docker-context: 13.23/debian/default
             docker-tags: |
-              nicoherbigde/postgresql:13.22
-              nicoherbigde/postgresql:13.22-trixie
+              nicoherbigde/postgresql:13.23
+              nicoherbigde/postgresql:13.23-trixie
           - version: 14.19-trixie
             docker-context: 14.19/debian/default
             docker-tags: |
