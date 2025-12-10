@@ -11,14 +11,6 @@ updates:
 
   # Maintain dependencies for Docker
   - package-ecosystem: "docker"
-    directory: "/13.23/debian/default"
-    schedule:
-      interval: "daily"
-    ignore:
-      - dependency-name: "postgres"
-        update-types: [ "version-update:semver-major" ]
-
-  - package-ecosystem: "docker"
     directory: "/14.20/debian/default"
     schedule:
       interval: "daily"
