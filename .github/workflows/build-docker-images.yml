@@ -8,7 +8,7 @@ on:
       - '.github/**'
       - '13.23/**'
       - '14.20/**'
-      - '15.14/**'
+      - '15.15/**'
       - '16.10/**'
       - '17.6/**'
       - '18.0/**'
@@ -23,7 +23,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [13.23-trixie, 14.20-trixie, 15.14-trixie, 16.10-trixie, 17.6-trixie, 18.0-trixie]
+        version: [13.23-trixie, 14.20-trixie, 15.15-trixie, 16.10-trixie, 17.6-trixie, 18.0-trixie]
         include:
           - version: 13.23-trixie
             docker-context: 13.23/debian/default
@@ -35,11 +35,11 @@ jobs:
             docker-tags: |
               nicoherbigde/postgresql:14.20
               nicoherbigde/postgresql:14.20-trixie
-          - version: 15.14-trixie
-            docker-context: 15.14/debian/default
+          - version: 15.15-trixie
+            docker-context: 15.15/debian/default
             docker-tags: |
-              nicoherbigde/postgresql:15.14
-              nicoherbigde/postgresql:15.14-trixie
+              nicoherbigde/postgresql:15.15
+              nicoherbigde/postgresql:15.15-trixie
           - version: 16.10-trixie
             docker-context: 16.10/debian/default
             docker-tags: |
