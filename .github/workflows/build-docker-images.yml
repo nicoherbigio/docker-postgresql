@@ -11,7 +11,7 @@ on:
       - '15.15/**'
       - '16.11/**'
       - '17.7/**'
-      - '18.0/**'
+      - '18.1/**'
   schedule:
     - cron: '0 1 * * 6'
   workflow_dispatch:
@@ -23,7 +23,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [13.23-trixie, 14.20-trixie, 15.15-trixie, 16.11-trixie, 17.7-trixie, 18.0-trixie]
+        version: [13.23-trixie, 14.20-trixie, 15.15-trixie, 16.11-trixie, 17.7-trixie, 18.1-trixie]
         include:
           - version: 13.23-trixie
             docker-context: 13.23/debian/default
@@ -50,11 +50,11 @@ jobs:
             docker-tags: |
               nicoherbigde/postgresql:17.7
               nicoherbigde/postgresql:17.7-trixie
-          - version: 18.0-trixie
-            docker-context: 18.0/debian/default
+          - version: 18.1-trixie
+            docker-context: 18.1/debian/default
             docker-tags: |
-              nicoherbigde/postgresql:18.0
-              nicoherbigde/postgresql:18.0-trixie
+              nicoherbigde/postgresql:18.1
+              nicoherbigde/postgresql:18.1-trixie
 
     steps:
       - name: Checkout Git Repository
