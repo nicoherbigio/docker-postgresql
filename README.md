@@ -4,7 +4,7 @@
 
 ## Supported tags and respective `Dockerfile` links
 
- * [`18.1`, `18.1-trixie`](https://github.com/nicoherbigio/docker-postgresql/blob/main/18.1/debian/default/Dockerfile)
+ * [`18.2`, `18.2-trixie`](https://github.com/nicoherbigio/docker-postgresql/blob/main/18.2/debian/default/Dockerfile)
  * [`17.8`, `17.8-trixie`](https://github.com/nicoherbigio/docker-postgresql/blob/main/17.8/debian/default/Dockerfile)
  * [`16.12`, `16.12-trixie`](https://github.com/nicoherbigio/docker-postgresql/blob/main/16.12/debian/default/Dockerfile)
  * [`15.16`, `15.16-trixie`](https://github.com/nicoherbigio/docker-postgresql/blob/main/15.16/debian/default/Dockerfile)
