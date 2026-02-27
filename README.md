@@ -8,7 +8,7 @@
  * [`17.7`, `17.7-trixie`](https://github.com/nicoherbigio/docker-postgresql/blob/main/17.7/debian/default/Dockerfile)
  * [`16.11`, `16.11-trixie`](https://github.com/nicoherbigio/docker-postgresql/blob/main/16.11/debian/default/Dockerfile)
  * [`15.15`, `15.15-trixie`](https://github.com/nicoherbigio/docker-postgresql/blob/main/15.15/debian/default/Dockerfile)
- * [`14.20`, `14.20-trixie`](https://github.com/nicoherbigio/docker-postgresql/blob/main/14.20/debian/default/Dockerfile)
+ * [`14.21`, `14.21-trixie`](https://github.com/nicoherbigio/docker-postgresql/blob/main/14.21/debian/default/Dockerfile)
 
 ## How to get this image
 
