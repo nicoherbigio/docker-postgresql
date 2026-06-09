@@ -7,7 +7,7 @@ on:
     paths:
       - '.github/workflows/**'
       - '14.23/**'
-      - '15.17/**'
+      - '15.18/**'
       - '16.13/**'
       - '17.9/**'
       - '18.3/**'
@@ -22,18 +22,18 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [14.23-trixie, 15.17-trixie, 16.13-trixie, 17.9-trixie, 18.3-trixie]
+        version: [14.23-trixie, 15.18-trixie, 16.13-trixie, 17.9-trixie, 18.3-trixie]
         include:
           - version: 14.23-trixie
             docker-context: 14.23/debian/default
             docker-tags: |
               nicoherbigde/postgresql:14.23
               nicoherbigde/postgresql:14.23-trixie
-          - version: 15.17-trixie
-            docker-context: 15.17/debian/default
+          - version: 15.18-trixie
+            docker-context: 15.18/debian/default
             docker-tags: |
-              nicoherbigde/postgresql:15.17
-              nicoherbigde/postgresql:15.17-trixie
+              nicoherbigde/postgresql:15.18
+              nicoherbigde/postgresql:15.18-trixie
           - version: 16.13-trixie
             docker-context: 16.13/debian/default
             docker-tags: |
