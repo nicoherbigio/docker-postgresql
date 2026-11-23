@@ -1,4 +1,4 @@
-FROM postgres:16.15-trixie
+FROM postgres:16.16-trixie
 
 LABEL maintainer="Nico Herbig <nico@nicoherbig.io>"
 
